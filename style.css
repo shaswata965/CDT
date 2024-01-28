@@ -369,7 +369,7 @@
 	7. Call To Action Area
 --------------------------*/
 .cta-area {
-  background-color: #F43E18;
+  background-color: #32096F;
 }
 .call-to-action{}
 .call-to-action h3 {
@@ -468,10 +468,6 @@
 .dark-wrapper .single-facts h1::before {
   background-color: #d0d0d0;
 }
-/* Course */
-.dark-wrapper .course-item {
-  background-image: url("img/shape/course/course-dark.png");
-}
 /* Gallery */
 .dark-wrapper .gallery-filter button::before, .dark-wrapper .gallery-filter button::after {
   background-color: #d0d0d0;
@@ -526,4 +522,86 @@
 .about-title{
   padding: 60px 0 60px 0;
   font-size: 30px;
+}
+
+/*--------------------------
+	12. Signup Section Style
+--------------------------*/
+
+.signup-text{
+  width: 90%;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.signup-link{
+  text-decoration: none;
+   color: #F43E18!important;
+  transition: all 1s ease 0s;
+}
+
+.signup-link:hover{
+  text-decoration: none;
+  color: #F43E18!important;
+  font-size: 15px!important;
+}
+
+/*--------------------------
+	13. Modal Section Style
+--------------------------*/
+
+.modal-header{
+  border-bottom: none!important;
+}
+
+.modal-title{
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 700;
+  color: #F43E18;
+}
+
+.modal-footer{
+  border-top: none!important;
+}
+
+.close-btn{
+  border: none!important;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #d4edda;
+  border-radius: 5px;
+  transition: all 1s ease 0s;
+}
+
+.close-btn:hover{
+  background-color: #f8d7da;
+}
+
+.close-btn:focus{
+  outline: none !important;
+}
+
+.sign-submit{
+  padding: 40px;
+}
+
+.close-btn2{
+  border: none!important;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #d4edda;
+  border-radius: 5px;
+  transition: all 1s ease 0s;
+}
+
+.close-btn2:hover{
+  background-color: #f8d7da;
+}
+
+.close-btn2:focus{
+  outline: none !important;
 }
