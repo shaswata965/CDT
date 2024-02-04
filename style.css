@@ -618,3 +618,21 @@
     transition: all 1s ease 0s;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .course-item {
+    background: rgba(0, 0, 0, 0) url("img/shape/course/mobile-course.png") no-repeat scroll center center ;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+    overflow: hidden;
+    padding: 34px 25px 40px;
+    position: relative;
+    transition: all 1s ease 0s;
+    z-index: 1;
+  }
+
+  .course-item:hover {
+    background-image: url("img/shape/course/course-hover.png");
+    transform: scale(1.1);
+  }
+}
