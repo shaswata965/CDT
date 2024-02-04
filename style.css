@@ -655,8 +655,8 @@ color: #F43E18;
 @media only screen and (max-width: 600px) {
   .close-btn{
     border: none!important;
-    height: 80px!important;
-    width: 80px!important;
+    height: 60px!important;
+    width: 60px!important;
     margin-top: 20px;
     margin-right: 20px;
     background-color: #f8d7da;
