@@ -659,9 +659,17 @@ color: #F43E18;
     width: 40px;
     margin-top: 20px;
     margin-right: 5px;
-    background-color: #d4edda;
+    background-color: #f8d7da;
+    color: #F43E18;
     border-radius: 5px;
     transition: all 1s ease 0s;
+  }
+
+  .close-btn:hover{
+    background-color: #F43E18;
+    color: #f8d7da;
+    font-size: 30px;
+    font-weight: bolder;
   }
 }
 
@@ -680,5 +688,9 @@ color: #F43E18;
   .course-item:hover {
     background-image: url("img/shape/course/course-hover.png");
     transform: scale(1.1);
+  }
+
+  .modal-header{
+    padding-top: 70px;
   }
 }
