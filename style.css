@@ -663,6 +663,12 @@ color: #F43E18;
     color: #F43E18;
     border-radius: 5px;
     transition: all 1s ease 0s;
+    position: relative;
+  }
+  .close-btn i{
+    position: absolute;
+    right: 25%;
+    top:27%;
   }
 
   .close-btn:hover{
