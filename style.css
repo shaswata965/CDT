@@ -574,11 +574,17 @@
   margin-right: 20px;
   background-color: #f8d7da;
   border-radius: 5px;
-  transition: all 1s ease 0s;
+  color: #F43E18;
+  font-size: 30px;
+  font-weight: bolder;
+  transition: all .5s ease 0s;
 }
 
 .close-btn:hover{
-  background-color: #f8d7da;
+  background-color: #F43E18;
+  color: #f8d7da;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 .close-btn:focus{
@@ -595,15 +601,55 @@
   margin-right: 20px;
   background-color: #f8d7da;
   border-radius: 5px;
-  transition: all 1s ease 0s;
+  color: #F43E18;
+  transition: all .5s ease 0s;
 }
 
 .close-btn2:hover{
-  background-color: #f8d7da;
+  background-color: #F43E18;
+  color: #f8d7da;
 }
 
 .close-btn2:focus{
   outline: none !important;
+}
+
+.normal-driving{
+  color: #F43E18;
+  font-size: 50px;
+}
+
+.modal-header{
+  padding-bottom: 0!important;
+}
+
+.modal-body{
+  padding-top: 0!important;
+}
+
+.modal-course-title{
+  color: #333333;
+}
+
+.modal-course{
+  position: relative;
+}
+.modal-course-title::before{
+  background-color: #F43E18;
+  right: 40%;
+  top: 85%;
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 120px;
+}
+
+.learn-more{
+color: #F43E18;
+}
+
+.course-item:hover .learn-more{
+  color: #32096F;
 }
 
 @media only screen and (max-width: 600px) {
