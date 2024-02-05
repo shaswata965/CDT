@@ -339,6 +339,19 @@
 .instructor-tab-list li a:hover::before, .instructor-tab-list li.active a::before {
   opacity: 0.5;
 }
+
+.destroy{
+  display: none!important;
+}
+
+.no-margin{
+margin: 0!important;
+}
+
+.mab-5{
+  margin-bottom: 0!important;
+}
+
 .instructor-tab-list li a::after {
   background-color: #dddddd;
   border-radius: 50%;

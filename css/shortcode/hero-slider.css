@@ -241,8 +241,9 @@
 .find-course-form form .course-submit {
   margin-bottom: 0;
   margin-top: 10px;
+  margin-left: 25%;
 }
-.find-course-form form .course-submit input {
+.find-course-form form .course-submit a{
   background-color: #F43E18;
   color: #fff;
   font-size: 13px;
@@ -251,7 +252,7 @@
   padding: 5px 30px;
   text-transform: uppercase;
 }
-.find-course-form form .course-submit input:hover {
+.find-course-form form .course-submit a:hover {
   background-color: #fff;
   color: #333;
 }
