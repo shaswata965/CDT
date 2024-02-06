@@ -352,6 +352,30 @@ margin: 0!important;
   margin-bottom: 0!important;
 }
 
+.cta-area2{
+  background-color: #F43E18;
+}
+
+.lesson-btn1{
+  background-color: #32096F!important;
+  border: none;
+}
+
+.lesson-btn1:hover{
+  background-color: white!important;
+  color: #32096F;
+}
+
+.lesson-btn2{
+  background-color: #F43E18!important;
+  border: none;
+}
+
+.lesson-btn2:hover{
+  background-color: white!important;
+  color: #F43E18;
+}
+
 .instructor-tab-list li a::after {
   background-color: #dddddd;
   border-radius: 50%;
