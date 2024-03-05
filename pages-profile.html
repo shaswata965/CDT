@@ -1,0 +1,741 @@
+﻿<!doctype html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable" data-theme="default" data-theme-colors="default">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Profile | Velzon - Admin & Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+    <meta content="Themesbrand" name="author">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-32x32.png">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+
+    <!-- Layout config Js -->
+    <script src="assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css">
+    <!-- custom Css-->
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="layout-width">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box horizontal-logo">
+                            <a href="index.html" class="logo logo-light">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="15">
+                        </span>
+                                <span class="logo-lg">
+                            <img src="img/logo.png" alt="" height="17">
+                        </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger material-shadow-none" id="topnav-hamburger-icon">
+                    <span class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                        </button>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+
+                        <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
+                            <button type="button" class="btn btn-icon btn-topbar material-shadow-none btn-ghost-secondary rounded-circle" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+                                <i class='bx bx-bell fs-22'></i>
+                                <span class="position-absolute topbar-badge fs-10 translate-middle badge rounded-pill bg-danger">3<span class="visually-hidden">unread messages</span></span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+
+                                <div class="dropdown-head bg-primary bg-pattern rounded-top">
+                                    <div class="p-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="m-0 fs-16 fw-semibold text-white"> Notifications </h6>
+                                            </div>
+                                            <div class="col-auto dropdown-tabs">
+                                                <span class="badge bg-light text-body fs-13"> 4 New</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 pt-2">
+                                        <ul class="nav nav-tabs dropdown-tabs nav-tabs-custom" data-dropdown-tabs="true" id="notificationItemsTab" role="tablist">
+                                            <li class="nav-item waves-effect waves-light">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#all-noti-tab" role="tab" aria-selected="true">
+                                                    All (4)
+                                                </a>
+                                            </li>
+                                            <li class="nav-item waves-effect waves-light">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#alerts-tab" role="tab" aria-selected="false">
+                                                    Alerts
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-content position-relative" id="notificationItemsTabContent">
+                                    <div class="tab-pane fade show active py-2 ps-2" id="all-noti-tab" role="tabpanel">
+                                        <div data-simplebar="" style="max-height: 300px;" class="pe-2">
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <div class="d-flex">
+                                                    <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-info-subtle text-info rounded-circle fs-16">
+                                                    <i class="bx bx-badge-check"></i>
+                                                </span>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="all-notification-check01">
+                                                            <label class="form-check-label" for="all-notification-check01"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <div class="d-flex">
+                                                    <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic">
+                                                    <div class="flex-grow-1">
+                                                        <a href="#!" class="stretched-link">
+                                                            <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                        </a>
+                                                        <div class="fs-13 text-muted">
+                                                            <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                                graph 🔔.</p>
+                                                        </div>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 48 min ago</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="all-notification-check02">
+                                                            <label class="form-check-label" for="all-notification-check02"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <div class="d-flex">
+                                                    <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
+                                                    <i class='bx bx-message-square-dots'></i>
+                                                </span>
+                                                    </div>
+                                                    <div class="flex-grow-1">
+                                                        <a href="#!" class="stretched-link">
+                                                            <h6 class="mt-0 mb-2 fs-13 lh-base">You have received <b class="text-success">20</b> new messages in the conversation
+                                                            </h6>
+                                                        </a>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="all-notification-check03">
+                                                            <label class="form-check-label" for="all-notification-check03"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="tab-pane fade py-2 ps-2" id="messages-tab" role="tabpanel" aria-labelledby="messages-tab">
+                                        <div data-simplebar="" style="max-height: 300px;" class="pe-2">
+                                            <div class="text-reset notification-item d-block dropdown-item">
+                                                <div class="d-flex">
+                                                    <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                    <div class="flex-grow-1">
+                                                        <a href="#!" class="stretched-link">
+                                                            <h6 class="mt-0 mb-1 fs-13 fw-semibold">James Lemire</h6>
+                                                        </a>
+                                                        <div class="fs-13 text-muted">
+                                                            <p class="mb-1">We talked about a project on linkedin.</p>
+                                                        </div>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 30 min ago</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="messages-notification-check01">
+                                                            <label class="form-check-label" for="messages-notification-check01"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-reset notification-item d-block dropdown-item">
+                                                <div class="d-flex">
+                                                    <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                    <div class="flex-grow-1">
+                                                        <a href="#!" class="stretched-link">
+                                                            <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                        </a>
+                                                        <div class="fs-13 text-muted">
+                                                            <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                                graph 🔔.</p>
+                                                        </div>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="messages-notification-check02">
+                                                            <label class="form-check-label" for="messages-notification-check02"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-reset notification-item d-block dropdown-item">
+                                                <div class="d-flex">
+                                                    <img src="assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                    <div class="flex-grow-1">
+                                                        <a href="#!" class="stretched-link">
+                                                            <h6 class="mt-0 mb-1 fs-13 fw-semibold">Kenneth Brown</h6>
+                                                        </a>
+                                                        <div class="fs-13 text-muted">
+                                                            <p class="mb-1">Mentionned you in his comment on 📃 invoice #12501.
+                                                            </p>
+                                                        </div>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 10 hrs ago</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="messages-notification-check03">
+                                                            <label class="form-check-label" for="messages-notification-check03"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-reset notification-item d-block dropdown-item">
+                                                <div class="d-flex">
+                                                    <img src="assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                    <div class="flex-grow-1">
+                                                        <a href="#!" class="stretched-link">
+                                                            <h6 class="mt-0 mb-1 fs-13 fw-semibold">Maureen Gibson</h6>
+                                                        </a>
+                                                        <div class="fs-13 text-muted">
+                                                            <p class="mb-1">We talked about a project on linkedin.</p>
+                                                        </div>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 3 days ago</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="px-2 fs-15">
+                                                        <div class="form-check notification-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="messages-notification-check04">
+                                                            <label class="form-check-label" for="messages-notification-check04"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="my-3 text-center view-all">
+                                                <button type="button" class="btn btn-soft-success waves-effect waves-light">View
+                                                    All Messages <i class="ri-arrow-right-line align-middle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade p-4" id="alerts-tab" role="tabpanel" aria-labelledby="alerts-tab"></div>
+
+                                    <div class="notification-actions" id="notification-actions">
+                                        <div class="d-flex text-muted justify-content-center">
+                                            Select <div id="select-content" class="text-body fw-semibold px-1">0</div> Result <button type="button" class="btn btn-link link-danger p-0 ms-3" data-bs-toggle="modal" data-bs-target="#removeNotificationModal">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown ms-sm-3 header-item topbar-user">
+                            <button type="button" class="btn material-shadow-none" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="d-flex align-items-center">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar">
+                            <span class="text-start ms-xl-2">
+                                <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Anna Adame</span>
+                                <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
+                            </span>
+                        </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <!-- item-->
+                                <h6 class="dropdown-header">Welcome Anna!</h6>
+                                <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
+                                <a class="dropdown-item" href="appointment.html"><i class="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Schedule Appointment</span></a>
+                                <a class="dropdown-item" href="pages-profile-settings.html"><i class="ri-user-settings-line text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="sign-in.html"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== App Menu ========== -->
+        <div class="app-menu navbar-menu">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <!-- Light Logo-->
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-sm">
+                        <img src="img/logo.png" alt="" height="15">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="img/logo.png" alt="" height="37">
+                    </span>
+                </a>
+                <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+                    <i class="ri-record-circle-line"></i>
+                </button>
+            </div>
+
+            <div id="scrollbar">
+                <div class="container-fluid">
+
+
+                    <div id="two-column-menu">
+                    </div>
+                    <ul class="navbar-nav" id="navbar-nav">
+                        <li class="menu-title"><span data-key="t-menu">Menu</span></li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="dashboard-projects.html">
+                                <i class="ri-home-3-line"></i> <span data-key="dashboard">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link active" href="pages-profile.html">
+                                <i class="ri-user-4-line"></i> <span data-key="profile">Profile</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="pages-profile-settings.html">
+                                <i class="ri-user-settings-line"></i> <span data-key="settings">Settings</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="appointment.html">
+                                <i class="ri-calendar-schedule-line"></i> <span data-key="settings">Appointment Center</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="course-details.html">
+                                <i class="ri-graduation-cap-line"></i> <span data-key="settings">Course Details</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="payment-history.html">
+                                <i class="ri-history-line"></i> <span data-key="settings">Payment History</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="appointment-history.html">
+                                <i class="ri-history-line"></i> <span data-key="settings">Appointment History</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+
+            <div class="sidebar-background"></div>
+        </div>
+
+        <!-- Left Sidebar End -->
+        <!-- Vertical Overlay-->
+        <div class="vertical-overlay"></div>
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-galaxy-transparent">
+                                <h4 class="mb-sm-0">Profile</h4>
+
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="dashboard-projects.html">Dashboards</a></li>
+                                        <li class="breadcrumb-item active">Profile</li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <div class="profile-foreground position-relative mx-n4 mt-n4">
+                        <div class="profile-wid-bg">
+                            <img src="assets/images/profile-bg.jpg" alt="" class="profile-wid-img">
+                        </div>
+                    </div>
+                    <div class="pt-4 mb-4 mb-lg-3 pb-lg-4 profile-wrapper">
+                        <div class="row g-4">
+                            <div class="col-auto">
+                                <div class="avatar-lg">
+                                    <img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-thumbnail rounded-circle">
+                                </div>
+                            </div>
+                            <!--end col-->
+                            <div class="col">
+                                <div class="p-2">
+                                    <h3 class="text-white mb-1">Anna Adame</h3>
+                                    <p class="text-white text-opacity-75">Owner & Founder</p>
+                                    <div class="hstack text-white-50 gap-1">
+                                        <div class="me-2"><i class="ri-map-pin-user-line me-1 text-white text-opacity-75 fs-16 align-middle"></i>California, United States</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div>
+                                <div class="d-flex profile-wrapper">
+                                    <div class="flex-shrink-0">
+                                        <a href="pages-profile-settings.html" class="btn btn-success"><i class="ri-edit-box-line align-bottom"></i> Edit Profile</a>
+                                    </div>
+                                </div>
+                                <!-- Tab panes -->
+                                <div class="tab-content pt-4 text-muted">
+                                    <div class="tab-pane active" id="overview-tab" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-xxl-3">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title mb-5">Complete Your Profile</h5>
+                                                        <div class="progress animated-progress custom-progress progress-label">
+                                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                                                <div class="label">30%</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title mb-3">Info</h5>
+                                                        <div class="table-responsive">
+                                                            <table class="table table-borderless mb-0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th class="ps-0" scope="row">Full Name :</th>
+                                                                        <td class="text-muted">Anna Adame</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="ps-0" scope="row">Mobile :</th>
+                                                                        <td class="text-muted">+(1) 987 6543</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="ps-0" scope="row">E-mail :</th>
+                                                                        <td class="text-muted">daveadame@velzon.com</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="ps-0" scope="row">Location :</th>
+                                                                        <td class="text-muted">California, United States
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="ps-0" scope="row">Joining Date</th>
+                                                                        <td class="text-muted">24 Nov 2021</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div><!-- end card body -->
+                                                </div><!-- end card -->
+                                            </div>
+                                            <!--end col-->
+                                            <div class="col-xxl-9">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title mb-3">About</h5>
+                                                        <p>Hi I'm Anna Adame, It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is European languages are members of the same family.</p>
+                                                        <p>You always want to make sure that your fonts work well together and try to limit the number of fonts you use to three or less. Experiment and play around with the fonts that you already have in the software you’re working with reputable font websites. This may be the most commonly encountered tip I received from the designers I spoke with. They highly encourage that you use different fonts in one design, but do not over-exaggerate and go overboard.</p>
+                                                        <!--end row-->
+                                                    </div>
+                                                    <!--end card-body-->
+                                                </div><!-- end card -->
+                                                <div class="row">
+                                                    <div class="col-xxl-4 col-lg-6">
+                                                        <div class="card card-body text-center card-primary">
+                                                            <div class="avatar-sm mx-auto mb-3">
+                                                                <div class="avatar-title bg-primary-subtle text-primary fs-17 rounded">
+                                                                    <i class="ri-calendar-schedule-fill"></i>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="card-title">Schedule Appointment</h4>
+                                                            <p class="card-text">Send a link to apply on mobile device. Appropriately communicate one-to-one technology.</p>
+                                                            <a  href="appointment.html" class="btn btn-soft-primary">Book Now</a>
+                                                        </div>
+                                                    </div><!-- end col -->
+                                                    <div class="col-xxl-4 col-lg-6">
+                                                        <div class="card card-body text-center card-warning">
+                                                            <div class="avatar-sm mx-auto mb-3">
+                                                                <div class="avatar-title bg-warning-subtle text-warning fs-17 rounded">
+                                                                    <i class="ri-check-double-fill"></i>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="card-title">Confirm Appointment</h4>
+                                                            <p class="card-text">Send a link to apply on mobile device. Appropriately communicate one-to-one technology.</p>
+                                                            <a data-bs-toggle="modal" data-bs-target="#confirmModal" class="btn btn-soft-warning">Confirm</a>
+                                                        </div>
+                                                    </div><!-- end col -->
+                                                    <div class="col-xxl-4 col-lg-6">
+                                                        <div class="card card-body text-center card-danger">
+                                                            <div class="avatar-sm mx-auto mb-3">
+                                                                <div class="avatar-title bg-danger-subtle text-danger fs-17 rounded">
+                                                                    <i class="ri-money-dollar-box-fill"></i>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="card-title">Make Payment</h4>
+                                                            <p class="card-text">Send a link to apply on mobile device. Appropriately communicate one-to-one technology.</p>
+                                                            <a data-bs-toggle="modal" data-bs-target="#payModal" class="btn btn-soft-danger">Make Payment</a>
+                                                        </div>
+                                                    </div><!-- end col -->
+                                                </div>
+                                            </div>
+                                            <!--end col-->
+                                        </div>
+                                        <!--end row-->
+                                    </div>
+                                </div>
+                                <!--end tab-content-->
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+
+                </div><!-- container-fluid -->
+            </div><!-- End Page-content -->
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © <a href="https://shaswataweb.netlify.app">Shaswata Web</a>.
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!--Success Payment Modal Start-->
+    <div id="successModal" class="modal flip" tabindex="-1" aria-labelledby="successLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-flip">
+            <div class="modal-content">
+                <div class="modal-body text-center p-5">
+                    <div class="text-end">
+                        <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="mt-2">
+                        <img class="success-img" src="./img/Success.png" alt="Confetti Image"/>
+                        <h4 class="mb-3 mt-4 text-success">Request Submitted Successfully!</h4>
+                        <p class="text-muted fs-15 mb-4">Thank You!!! We will review the information and get back to you as soon as possible. We are grateful for your continuous confidence in us.</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!--Success Payment Modal End-->
+
+    <!--Reconsider Appointment Modal Start-->
+    <div id="reModal" class="modal flip" tabindex="-1" aria-labelledby="reLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-flip">
+            <div class="modal-content">
+                <div class="modal-body text-center p-5">
+                    <div class="text-end">
+                        <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="mt-2">
+                        <img class="fail-img" src="./img/confirm-cancel.png" alt="Confetti Image"/>
+                        <h4 class="mb-3 mt-4 text-primary">Are you sure?</h4>
+                        <div class="d-grid gap-2" >
+                            <button data-bs-toggle="modal" data-bs-target="#failModal" class="btn btn-outline-warning" type="button">Cancel</button>
+                            <button data-bs-toggle="modal" data-bs-target="#confirmModal"  class="btn btn-outline-danger" type="button">Reconsider</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-danger-subtle p-3 justify-content-center">
+                    <p class="mb-0 text-danger">We can't provide refunds for late cancellation. It is not too late to confirm <a data-bs-toggle="modal" type="btn" data-bs-target="#confirmModal" class="link-secondary fw-semibold reaffirm">Confirm Appointment</a></p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!--Success Payment Modal End-->
+
+    <!--Fail Appointment Modal Start-->
+    <div id="failModal" class="modal flip" tabindex="-1" aria-labelledby="failLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-flip">
+            <div class="modal-content">
+                <div class="modal-body text-center p-5">
+                    <div class="text-end">
+                        <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="mt-2">
+                        <img class="fail-img" src="./img/Fail.png" alt="Confetti Image"/>
+                        <h4 class="mb-3 mt-4 text-primary">Appointment Cancelled</h4>
+                    </div>
+                </div>
+                <div class="modal-footer bg-danger-subtle p-3 justify-content-center">
+                    <p class="mb-0 text-danger">We can't provide refunds for late cancellation.</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!--Success Payment Modal End-->
+
+    <!--Success Appointment Modal Start-->
+    <div id="successAppModal" class="modal flip" tabindex="-1" aria-labelledby="successAppLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-flip">
+            <div class="modal-content">
+                <div class="modal-body text-center p-5">
+                    <div class="text-end">
+                        <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="mt-2">
+                        <img class="success-img" src="./img/Success.png" alt="Confetti Image"/>
+                        <h4 class="mb-3 mt-4 text-success">Appointment Confirmed Successfully!</h4>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!--Success Payment Modal End-->
+    <!--start back-to-top-->
+    <button onclick="topFunction()" class="btn btn-danger btn-icon" id="back-to-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->
+
+    <!--start confirm-appointment-modal-->
+    <div id="confirmModal" class="modal flip" tabindex="-1" aria-labelledby="confirmLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmLabel">Confirm Appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-grid gap-2">
+                        <button data-bs-toggle="modal" data-bs-target="#successAppModal" type="button" class="btn btn-success btn-label waves-effect waves-light rounded-pill"><i class="ri-check-double-line label-icon align-middle rounded-pill fs-16 me-2"></i> I am here</button>
+                        <button data-bs-toggle="modal" data-bs-target="#reModal" type="button" class="btn btn-danger btn-label waves-effect waves-light rounded-pill"><i class="ri-file-warning-line label-icon align-middle rounded-pill fs-16 me-2"></i>I can't be there</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--end confirm-appointment-modal-->
+
+    <!--start payment-modal-->
+    <div id="payModal" class="modal flip" tabindex="-1" aria-labelledby="payLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="payLabel">Confirm Payment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-grid gap-2">
+                        <div class="col-12">
+                            <label class="visually-hidden" for="inlineFormSelectPref">Appointment</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <option selected>Appointment1</option>
+                                <option value="1">Appointment2</option>
+                                <option value="2">Appointment3</option>
+                            </select>
+                        </div><!--end col-->
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="payConfirm" placeholder="Enter the reference No.">
+                            <label for="payConfirm">Interac Reference</label>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3"></div>
+                                <div class="col-lg-6">
+                                    <div class="d-grid">
+                                        <button data-bs-toggle="modal" data-bs-target="#successModal"  type="button" class="btn btn-success btn-label waves-effect waves-light rounded-pill"><i class="ri-check-double-line label-icon align-middle rounded-pill fs-16 me-2"></i>Submit</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--end payment-modal-->
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="assets/js/plugins.js"></script>
+
+    <!-- swiper js -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- profile init js -->
+    <script src="assets/js/pages/profile.init.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

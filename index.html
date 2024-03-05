@@ -50,7 +50,8 @@
 					<p><i class="icofont icofont-ui-call"></i><span>+1-709-764-9845</span></p>
 				</div>
 				<div class="header-top-right text-right col-md-6 col-12">
-					<p><i class="icofont icofont-clock-time"></i><span>Mon - Sat : 8am - 8pm</span></p>
+					<p><i class="icofont icofont-clock-time"></i><span>Mon - Tue : 6am - 4pm</span></p>
+					<p><i class="icofont icofont-clock-time"></i><span>Thu - Sat : 6am - 4pm</span></p>
 				</div>
 			</div>
 		</div>
@@ -66,10 +67,10 @@
 						<ul>
 							<li class="active"><a href="index.html">home</a></li>
 							<li><a href="about.html">about</a></li>
-							<li><a href="gallery.html">gallery</a>
-							</li>
+<!--							<li><a href="gallery.html">gallery</a>-->
+<!--							</li>-->
 							<li><a href="service.html">services</a></li>
-							<li><a href="blog.html">blog</a>
+<!--							<li><a href="blog.html">blog</a>-->
 							</li>
 							<li><a href="contact.html">contact</a></li>
 							<li><a href="sign-in.html">sign-in<i class="icofont icofont-user"></i></a></li>
@@ -125,7 +126,7 @@
 								<option>Certificate</option>
 							</select>
 						</div>
-						<div class="course-submit"><a href="sign-in.html">Confirm</a></div>
+						<div class="course-submit"><a data-bs-toggle="modal" data-bs-target="#bookingModal">Confirm</a></div>
 					</form>
 				</div>
 			</div>										
@@ -195,8 +196,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="call-to-action text-left col-lg-10 col-12 mx-auto">
-					<h3>Book a lesson with us today</h3>
-					<a href="#" class="btn transparent lesson-btn1">Book</a>
+					<h3>Book an assessment</h3>
+					<a type="button" data-bs-toggle="modal" data-bs-target="#bookingModal" class="btn transparent lesson-btn1 custom-a">Book</a>
 				</div>
 			</div>
 		</div>
@@ -368,7 +369,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-12 mb-30">
-				<div class="single-pricing active1 text-center">
+				<div class="single-pricing active1 text-center pb-20" id="single1">
 					<div class="pricing-head" id="heading1">
 						<h4>Single</h4>
 					</div>
@@ -395,19 +396,12 @@
 					</div>
 					<div onclick="showDiv(1)" class="pricing-price" id="overview1">
 						<h2><span>$</span>105</h2>
+						<h6>Choose Plan</h6>
 					</div>
-					<ul class="pricing-details" id="overview12">
-						<li>1 Lesson</li>
-						<li>1.5 Hour Length</li>
-						<li>Free Pickup and Drop off</li>
-						<li>Driving Assessment</li>
-						<li>Parking Assessment</li>
-					</ul>
-					<a href="sign-in.html" class="pricing-action">choose plan</a>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-12 mb-30">
-				<div class="single-pricing active2 text-center">
+				<div class="single-pricing active2 text-center pb-20" id="single2">
 					<div class="pricing-head" id="heading2">
 						<h4>Road Test</h4>
 					</div>
@@ -434,19 +428,12 @@
 					</div>
 					<div onclick="showDiv(2)" class="pricing-price" id="overview2">
 						<h2><span>$</span>175</h2>
+						<h6>Choose Plan</h6>
 					</div>
-					<ul class="pricing-details" id="overview22">
-						<li>1.5 hour practice</li>
-						<li>Car for Road Test</li>
-						<li>Parking Assessment</li>
-						<li>Driving Assessment</li>
-						<li>Test Range Familiarization</li>
-					</ul>
-					<a href="sign-in.html" class="pricing-action">choose plan</a>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-12 mb-30">
-				<div class="single-pricing active3 text-center">
+				<div class="single-pricing active3 text-center pb-20" id="single3">
 					<div class="pricing-head" id="heading3">
 						<h4>Most Popular</h4>
 					</div>
@@ -473,19 +460,12 @@
 					</div>
 					<div onclick="showDiv(3)" class="pricing-price popular" id="overview3">
 						<h2><span>$</span>280</h2>
+						<h6>Choose Plan</h6>
 					</div>
-					<ul class="pricing-details popular" id="overview32">
-						<li>2 1.5 Hour lesson</li>
-						<li>1 1 Hour lesson</li>
-						<li>Free Pickup and Drop off</li>
-						<li>Driving Assessment</li>
-						<li>Parking Assessment</li>
-					</ul>
-					<a href="sign-in.html" class="pricing-action">choose plan</a>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-12 mb-30">
-				<div class="single-pricing active4 text-center">
+				<div class="single-pricing active4 text-center pb-20" id="single4">
 					<div class="pricing-head" id="heading4">
 						<h4>Certification</h4>
 					</div>
@@ -511,16 +491,9 @@
 						<div></div>
 					</div>
 					<div onclick="showDiv(4)" class="pricing-price" id="overview4">
-						<h2><span>$</span>900</h2>
+						<h2><span>$</span> 900</h2>
+						<h6>Choose Plan</h6>
 					</div>
-					<ul class="pricing-details" id="overview42">
-						<li>10.5 Hour Driving Lesson</li>
-						<li>25 Hour Online Content</li>
-						<li>Free Pickup and Drop off</li>
-						<li>Driving Assessment</li>
-						<li>Parking Assessment</li>
-					</ul>
-					<a href="sign-in.html" class="pricing-action">choose plan</a>
 				</div>
 			</div>
 		</div>
@@ -598,7 +571,7 @@
 		<div class="row">
 			<div class="call-to-action text-left col-lg-10 col-12 mx-auto">
 				<h3>Get Assessed Today</h3>
-				<a href="#" class="btn transparent lesson-btn2">book assessment</a>
+				<a data-bs-toggle="modal" data-bs-target="#bookingModal" class="btn transparent lesson-btn2 custom-a2">book assessment</a>
 			</div>
 		</div>
 	</div>
@@ -653,12 +626,12 @@
 					<h4 class="widget-title">Opening Hour </h4>
 					<div class="opening-hour-widget">
 						<ul>
-							<li><span class="float-left">Monday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Tuesday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Wednesday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Thursday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Friday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Saturday</span><span class="float-right">08:00-18:00</span></li>
+							<li><span class="float-left">Monday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Tuesday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Wednesday</span><span class="float-right">Closed</span></li>
+							<li><span class="float-left">Thursday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Friday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Saturday</span><span class="float-right">06:00-16:00</span></li>
 							<li><span class="float-left">Sunday</span><span class="float-right">Closed</span></li>
 						</ul>
 					</div>
@@ -860,6 +833,97 @@
 			</div>
 		</div>
 	</div>
+	<!-- Booking Modal Area
+============================================ -->
+	<div class=" modal fade" id="bookingModal"  aria-labelledby="bookingModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="container">
+						<div class="row">
+							<div class="section-title text-center col-12 mb-45 pt-20">
+								<h3 class="heading">Request Booking</h3>
+								<i class="icofont icofont-traffic-light"></i>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="close-btn"  data-bs-dismiss="modal" aria-label="Close"><i class="icofont icofont-close-line"></i></button>
+				</div>
+				<div class="modal-body">
+					<div class="container pb-30 pt-10">
+						<div class="row">
+							<!-- Contact Form -->
+							<div class="col-lg-2"></div>
+							<div class="contact-form form text-left col-lg-9 col-sm-12">
+								<form id="signup-form" action="#" method="post">
+									<div class="input-2">
+										<div class="input"><input type="text" name="fname" placeholder="First Name" /></div>
+										<div class="input"><input type="text" name="lname" placeholder="Last Name" /></div>
+									</div>
+									<div class="input"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="input"><input type="text" name="address" placeholder="Address" /></div>
+									<div class="input"><input class="date-picker" type="text" placeholder="Date"></div>
+									<select class="custom-select mb-3">
+										<option selected>Choose a Time</option>
+										<option value="1">7:00 AM</option>
+										<option value="2">8:00 AM</option>
+										<option value="3">9:00 AM</option>
+										<option value="4">10:00 AM</option>
+										<option value="5">11:00 AM</option>
+										<option value="6">12:00 PM</option>
+										<option value="7">1:00 PM</option>
+										<option value="8">2:00 PM</option>
+										<option value="9">3:00 PM</option>
+										<option value="10">4:00 PM</option>
+									</select>
+									<div class="row">
+										<div class="col-sm-3 col-4"></div>
+										<div class=" col-sm-6 col-4">
+											<div class="input input-submit sign-submit"><input type="button" class="btn color" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#successModal" value="Request Booking" /></div>
+										</div>
+										<div class="col-sm-3 col-4">
+										</div>
+									</div>
+								</form>
+								<p class="form-messege"></p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg close-btn2" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Success Modal Area
+============================================ -->
+	<div class=" modal fade" id="successModal"  aria-labelledby="successModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="container pb-30 pt-10">
+						<div class="row">
+							<!-- Contact Form -->
+							<div class="col-lg-2"></div>
+							<div class="contact-form form text-left col-lg-9 col-sm-12">
+								<img src="img/Success.png" class="success-modal-img" alt="success">
+								<h4 class="text-success text-center">Request Submitted Successfully</h4>
+								<p class="text-muted">Thank you for your request, one of our admins will review your request and get back to you as soon as possible.</p>
+								<p class="text-muted">Please check your email for your appointment details</p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg close-btn2" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </div>
 <!-- Body main wrapper end -->
@@ -891,15 +955,15 @@
 function showDiv(num){
 document.getElementById("details"+num).classList.remove("destroy");
 document.getElementById("overview"+num).classList.add("destroy");
-	document.getElementById("overview"+num+"2").classList.add("destroy");
 	document.getElementById("heading"+num).classList.add("no-margin");
+	document.getElementById("single"+num).classList.add("no-padding-bottom");
 }
 
 function hideDiv(num){
 	document.getElementById("details"+num).classList.add("destroy");
 	document.getElementById("overview"+num).classList.remove("destroy");
-	document.getElementById("overview"+num+"2").classList.remove("destroy");
 	document.getElementById("heading"+num).classList.remove("no-margin");
+	document.getElementById("single"+num).classList.remove("no-padding-bottom");
 }
 
 </script>

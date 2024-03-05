@@ -348,6 +348,10 @@
 margin: 0!important;
 }
 
+.no-padding-bottom{
+  padding-bottom: 0!important;
+}
+
 .mab-5{
   margin-bottom: 0!important;
 }
@@ -736,4 +740,32 @@ color: #F43E18;
   .modal-header{
     padding-top: 70px;
   }
+}
+
+.custom-select{
+  width: 100%;
+}
+
+.custom-a{
+  color: white!important;
+  cursor: pointer;
+}
+
+.custom-a:hover{
+  color: #32096F!important;
+}
+
+.custom-a2{
+  color: white!important;
+}
+
+.custom-a2:hover{
+  color: #32096F!important;
+  cursor: pointer;
+}
+
+.success-modal-img{
+  height: 200px;
+  width: 200px;
+  margin-left: 30%;
 }

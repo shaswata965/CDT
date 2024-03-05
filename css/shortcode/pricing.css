@@ -53,18 +53,18 @@
   -webkit-background-size: cover ;
   background-size: cover ;
   display: block;
-  height: 96px;
+  height: 135px;
   margin: 0 auto 26px;
   padding: 32px 10px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 96px;
+  width: 140px;
 }
 .single-pricing:hover .pricing-price, .active .pricing-price,.single-pricing:hover .pricing-price, .active3 .pricing-price {
   background-image: url("../../img/shape/pricing/price-border-cdt.png");
 }
 
-.single-pricing:hover .pricing-price span, .single-pricing:hover .pricing-price h2, .single-pricing:hover .pricing-details li{
+.single-pricing:hover .pricing-price span, .single-pricing:hover .pricing-price h2, .single-pricing:hover .pricing-price h6, .single-pricing:hover .pricing-details li{
   color: #F2943A;
 }
 
@@ -76,7 +76,11 @@
   margin: 0;
 }
 
-.popular h2, .popular h2 span{
+.pricing-price h6{
+  color: #FFFFFF;
+}
+
+.popular h2, .popular h2 span, .popular h6{
   color: #F2943A!important;
 }
 

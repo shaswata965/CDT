@@ -50,7 +50,8 @@
 						<p><i class="icofont icofont-ui-call"></i><span>+1-709-764-9845</span></p>
 					</div>
 					<div class="header-top-right text-right col-md-6 col-12">
-						<p><i class="icofont icofont-clock-time"></i><span>Mon - Sat : 8am - 8pm</span></p>
+						<p><i class="icofont icofont-clock-time"></i><span>Mon - Tue : 6am - 4pm</span></p>
+						<p><i class="icofont icofont-clock-time"></i><span>Thu - Sat : 6am - 4pm</span></p>
 					</div>
 				</div>
 			</div>
@@ -66,11 +67,11 @@
 							<ul>
 								<li><a href="index.html">home</a></li>
 								<li class="active"><a href="about.html">about</a></li>
-								<li><a href="gallery.html">gallery</a>
-								</li>
+<!--								<li><a href="gallery.html">gallery</a>-->
+<!--								</li>-->
 								<li><a href="service.html">services</a></li>
-								<li><a href="blog.html">blog</a>
-								</li>
+<!--								<li><a href="blog.html">blog</a>-->
+<!--								</li>-->
 								<li><a href="contact.html">contact</a></li>
 								<li><a href="sign-in.html">sign-in<i class="icofont icofont-user"></i></a></li>
 							</ul>
@@ -149,7 +150,99 @@
 			<div class="row">
 				<div class="call-to-action text-left col-lg-10 col-12 mx-auto">
 					<h3>Book a lesson with us today</h3>
-					<a href="#" class="btn transparent lesson-btn1">book</a>
+					<a type="button" data-bs-toggle="modal" data-bs-target="#bookingModal" class="btn transparent lesson-btn1 custom-a">book</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Booking Modal Area
+    ============================================ -->
+	<div class=" modal fade" id="bookingModal"  aria-labelledby="bookingModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="container">
+						<div class="row">
+							<div class="section-title text-center col-12 mb-45 pt-20">
+								<h3 class="heading">Request Booking</h3>
+								<i class="icofont icofont-traffic-light"></i>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="close-btn"  data-bs-dismiss="modal" aria-label="Close"><i class="icofont icofont-close-line"></i></button>
+				</div>
+				<div class="modal-body">
+					<div class="container pb-30 pt-10">
+						<div class="row">
+							<!-- Contact Form -->
+							<div class="col-lg-2"></div>
+							<div class="contact-form form text-left col-lg-9 col-sm-12">
+								<form id="signup-form" action="#" method="post">
+									<div class="input-2">
+										<div class="input"><input type="text" name="fname" placeholder="First Name" /></div>
+										<div class="input"><input type="text" name="lname" placeholder="Last Name" /></div>
+									</div>
+									<div class="input"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="input"><input type="text" name="address" placeholder="Address" /></div>
+									<div class="input"><input class="date-picker" type="text" placeholder="Date"></div>
+									<select class="custom-select mb-3">
+										<option selected>Choose a Time</option>
+										<option value="1">7:00 AM</option>
+										<option value="2">8:00 AM</option>
+										<option value="3">9:00 AM</option>
+										<option value="4">10:00 AM</option>
+										<option value="5">11:00 AM</option>
+										<option value="6">12:00 PM</option>
+										<option value="7">1:00 PM</option>
+										<option value="8">2:00 PM</option>
+										<option value="9">3:00 PM</option>
+										<option value="10">4:00 PM</option>
+									</select>
+									<div class="row">
+										<div class="col-sm-3 col-4"></div>
+										<div class=" col-sm-6 col-4">
+											<div class="input input-submit sign-submit"><input type="button" class="btn color" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#successModal" value="Request Booking" /></div>
+										</div>
+										<div class="col-sm-3 col-4">
+										</div>
+									</div>
+								</form>
+								<p class="form-messege"></p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg close-btn2" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Success Modal Area
+    ============================================ -->
+	<div class=" modal fade" id="successModal"  aria-labelledby="successModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="container pb-30 pt-10">
+						<div class="row">
+							<!-- Contact Form -->
+							<div class="col-lg-2"></div>
+							<div class="contact-form form text-left col-lg-9 col-sm-12">
+								<img src="img/Success.png" class="success-modal-img" alt="success">
+								<h4 class="text-success text-center">Request Submitted Successfully</h4>
+								<p class="text-muted">Thank you for your request, one of our admins will review your request and get back to you as soon as possible.</p>
+								<p class="text-muted">Please check your email for your appointment details</p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg close-btn2" data-bs-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -398,7 +491,7 @@
 		<div class="row">
 			<div class="call-to-action text-left col-lg-10 col-12 mx-auto">
 				<h3>try to get our lesson today</h3>
-				<a href="#" class="btn transparent ">get  lesson</a>
+				<a href="sign-in.html" class="btn transparent ">get  lesson</a>
 			</div>
 		</div>
 	</div>
@@ -410,14 +503,14 @@
 			<div class="row">
 				<div class="footer-top text-center mb-80 col-lg-8 col-12 mx-auto">
 					<img src="img/logo.png" class="footer-img" alt="" />
-					<p>There are many many variations of passages of Lorem Ipsum available,  suffered   alteration in some form, by domised words which is don'</p>
+					<p>Why compromise between price, quality and flexibility choose CDT and get the best of all worlds. Learn to be the most confident driver on the road. </p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="footer-widget text-left col-lg-3 col-md-6 col-12">
 					<h4 class="widget-title">about CDT</h4>
 					<div class="about-widget">
-						<p>It is a long established fact that is a reader will be distracted by the readable content of page when looking at its layout. it’s the more fact that is reader will be by the readable looking its layout.</p>
+						<p>We provide the cheapest and best service from a driving school.</p>
 						<div class="widget-social fix">
 							<a href="#"><i class="icofont icofont-social-facebook"></i></a>
 							<a href="#"><i class="icofont icofont-social-pinterest"></i></a>
@@ -429,8 +522,6 @@
 				<div class="footer-widget text-left col-lg-3 col-md-6 col-12">
 					<h4 class="widget-title">quick contact</h4>
 					<div class="contact-widget">
-						<h5>address:</h5>
-						<p>Flor. 4,  House. 15,  Block-C. <br />Banasree Main Road,  Dhaka.</p>
 						<h5>phone:</h5>
 						<p>+880 1912 345 678 <br />+880 1912 345 678</p>
 						<h5>e-mail</h5>
@@ -455,12 +546,12 @@
 					<h4 class="widget-title">Opening Hour </h4>
 					<div class="opening-hour-widget">
 						<ul>
-							<li><span class="float-left">Monday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Tuesday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Wednesday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Thursday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Friday</span><span class="float-right">08:00-18:00</span></li>
-							<li><span class="float-left">Saturday</span><span class="float-right">08:00-18:00</span></li>
+							<li><span class="float-left">Monday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Tuesday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Wednesday</span><span class="float-right">Closed</span></li>
+							<li><span class="float-left">Thursday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Friday</span><span class="float-right">06:00-16:00</span></li>
+							<li><span class="float-left">Saturday</span><span class="float-right">06:00-16:00</span></li>
 							<li><span class="float-left">Sunday</span><span class="float-right">Closed</span></li>
 						</ul>
 					</div>
@@ -471,7 +562,6 @@
 			</div>
 		</div>
 	</div>
-
 
 </div>
 <!-- Body main wrapper end -->
@@ -499,6 +589,8 @@
 <!-- Main JS
 ============================================ -->
 <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>
 </html>

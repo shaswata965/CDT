@@ -1,0 +1,1508 @@
+<!doctype html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable" data-theme="default" data-theme-colors="default">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Projects | Velzon - Admin & Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+    <meta content="Themesbrand" name="author">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-32x32.png">
+
+    <!-- Layout config Js -->
+    <script src="assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css">
+    <!-- custom Css-->
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<!-- Begin page -->
+<div id="layout-wrapper">
+
+    <header id="page-topbar">
+        <div class="layout-width">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box horizontal-logo">
+                        <a href="index.html" class="logo logo-light">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="15">
+                        </span>
+                            <span class="logo-lg">
+                            <img src="img/logo.png" alt="" height="17">
+                        </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger material-shadow-none" id="topnav-hamburger-icon">
+                    <span class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    </button>
+                </div>
+
+                <div class="d-flex align-items-center">
+
+                    <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
+                        <button type="button" class="btn btn-icon btn-topbar material-shadow-none btn-ghost-secondary rounded-circle" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+                            <i class='bx bx-bell fs-22'></i>
+                            <span class="position-absolute topbar-badge fs-10 translate-middle badge rounded-pill bg-danger">3<span class="visually-hidden">unread messages</span></span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+
+                            <div class="dropdown-head bg-primary bg-pattern rounded-top">
+                                <div class="p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h6 class="m-0 fs-16 fw-semibold text-white"> Notifications </h6>
+                                        </div>
+                                        <div class="col-auto dropdown-tabs">
+                                            <span class="badge bg-light text-body fs-13"> 4 New</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="px-2 pt-2">
+                                    <ul class="nav nav-tabs dropdown-tabs nav-tabs-custom" data-dropdown-tabs="true" id="notificationItemsTab" role="tablist">
+                                        <li class="nav-item waves-effect waves-light">
+                                            <a class="nav-link active" data-bs-toggle="tab" href="#all-noti-tab" role="tab" aria-selected="true">
+                                                All (4)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item waves-effect waves-light">
+                                            <a class="nav-link" data-bs-toggle="tab" href="#alerts-tab" role="tab" aria-selected="false">
+                                                Alerts
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="tab-content position-relative" id="notificationItemsTabContent">
+                                <div class="tab-pane fade show active py-2 ps-2" id="all-noti-tab" role="tabpanel">
+                                    <div data-simplebar="" style="max-height: 300px;" class="pe-2">
+                                        <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                            <div class="d-flex">
+                                                <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-info-subtle text-info rounded-circle fs-16">
+                                                    <i class="bx bx-badge-check"></i>
+                                                </span>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="all-notification-check01">
+                                                        <label class="form-check-label" for="all-notification-check01"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                            <div class="d-flex">
+                                                <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic">
+                                                <div class="flex-grow-1">
+                                                    <a href="#!" class="stretched-link">
+                                                        <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                    </a>
+                                                    <div class="fs-13 text-muted">
+                                                        <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                            graph 🔔.</p>
+                                                    </div>
+                                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                        <span><i class="mdi mdi-clock-outline"></i> 48 min ago</span>
+                                                    </p>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="all-notification-check02">
+                                                        <label class="form-check-label" for="all-notification-check02"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                            <div class="d-flex">
+                                                <div class="avatar-xs me-3 flex-shrink-0">
+                                                <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
+                                                    <i class='bx bx-message-square-dots'></i>
+                                                </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <a href="#!" class="stretched-link">
+                                                        <h6 class="mt-0 mb-2 fs-13 lh-base">You have received <b class="text-success">20</b> new messages in the conversation
+                                                        </h6>
+                                                    </a>
+                                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                        <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                    </p>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="all-notification-check03">
+                                                        <label class="form-check-label" for="all-notification-check03"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade py-2 ps-2" id="messages-tab" role="tabpanel" aria-labelledby="messages-tab">
+                                    <div data-simplebar="" style="max-height: 300px;" class="pe-2">
+                                        <div class="text-reset notification-item d-block dropdown-item">
+                                            <div class="d-flex">
+                                                <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <div class="flex-grow-1">
+                                                    <a href="#!" class="stretched-link">
+                                                        <h6 class="mt-0 mb-1 fs-13 fw-semibold">James Lemire</h6>
+                                                    </a>
+                                                    <div class="fs-13 text-muted">
+                                                        <p class="mb-1">We talked about a project on linkedin.</p>
+                                                    </div>
+                                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                        <span><i class="mdi mdi-clock-outline"></i> 30 min ago</span>
+                                                    </p>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="messages-notification-check01">
+                                                        <label class="form-check-label" for="messages-notification-check01"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-reset notification-item d-block dropdown-item">
+                                            <div class="d-flex">
+                                                <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <div class="flex-grow-1">
+                                                    <a href="#!" class="stretched-link">
+                                                        <h6 class="mt-0 mb-1 fs-13 fw-semibold">Angela Bernier</h6>
+                                                    </a>
+                                                    <div class="fs-13 text-muted">
+                                                        <p class="mb-1">Answered to your comment on the cash flow forecast's
+                                                            graph 🔔.</p>
+                                                    </div>
+                                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                        <span><i class="mdi mdi-clock-outline"></i> 2 hrs ago</span>
+                                                    </p>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="messages-notification-check02">
+                                                        <label class="form-check-label" for="messages-notification-check02"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-reset notification-item d-block dropdown-item">
+                                            <div class="d-flex">
+                                                <img src="assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <div class="flex-grow-1">
+                                                    <a href="#!" class="stretched-link">
+                                                        <h6 class="mt-0 mb-1 fs-13 fw-semibold">Kenneth Brown</h6>
+                                                    </a>
+                                                    <div class="fs-13 text-muted">
+                                                        <p class="mb-1">Mentionned you in his comment on 📃 invoice #12501.
+                                                        </p>
+                                                    </div>
+                                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                        <span><i class="mdi mdi-clock-outline"></i> 10 hrs ago</span>
+                                                    </p>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="messages-notification-check03">
+                                                        <label class="form-check-label" for="messages-notification-check03"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-reset notification-item d-block dropdown-item">
+                                            <div class="d-flex">
+                                                <img src="assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <div class="flex-grow-1">
+                                                    <a href="#!" class="stretched-link">
+                                                        <h6 class="mt-0 mb-1 fs-13 fw-semibold">Maureen Gibson</h6>
+                                                    </a>
+                                                    <div class="fs-13 text-muted">
+                                                        <p class="mb-1">We talked about a project on linkedin.</p>
+                                                    </div>
+                                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                        <span><i class="mdi mdi-clock-outline"></i> 3 days ago</span>
+                                                    </p>
+                                                </div>
+                                                <div class="px-2 fs-15">
+                                                    <div class="form-check notification-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="messages-notification-check04">
+                                                        <label class="form-check-label" for="messages-notification-check04"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="my-3 text-center view-all">
+                                            <button type="button" class="btn btn-soft-success waves-effect waves-light">View
+                                                All Messages <i class="ri-arrow-right-line align-middle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade p-4" id="alerts-tab" role="tabpanel" aria-labelledby="alerts-tab"></div>
+
+                                <div class="notification-actions" id="notification-actions">
+                                    <div class="d-flex text-muted justify-content-center">
+                                        Select <div id="select-content" class="text-body fw-semibold px-1">0</div> Result <button type="button" class="btn btn-link link-danger p-0 ms-3" data-bs-toggle="modal" data-bs-target="#removeNotificationModal">Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown ms-sm-3 header-item topbar-user">
+                        <button type="button" class="btn material-shadow-none" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="d-flex align-items-center">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar">
+                            <span class="text-start ms-xl-2">
+                                <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Anna Adame</span>
+                                <span class="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
+                            </span>
+                        </span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <!-- item-->
+                            <h6 class="dropdown-header">Welcome Anna!</h6>
+                            <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
+                            <a class="dropdown-item" href="appointment.html"><i class="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Schedule Appointment</span></a>
+                            <a class="dropdown-item" href="pages-profile-settings.html"><i class="ri-user-settings-line text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="sign-in.html"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== App Menu ========== -->
+    <div class="app-menu navbar-menu">
+        <!-- LOGO -->
+        <div class="navbar-brand-box">
+            <!-- Light Logo-->
+            <a href="index.html" class="logo logo-light">
+                    <span class="logo-sm">
+                        <img src="img/logo.png" alt="" height="15">
+                    </span>
+                <span class="logo-lg">
+                        <img src="img/logo.png" alt="" height="37">
+                    </span>
+            </a>
+            <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+                <i class="ri-record-circle-line"></i>
+            </button>
+        </div>
+
+        <div id="scrollbar">
+            <div class="container-fluid">
+
+
+                <div id="two-column-menu">
+                </div>
+                <ul class="navbar-nav" id="navbar-nav">
+                    <li class="menu-title"><span data-key="t-menu">Menu</span></li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="dashboard-projects.html">
+                            <i class="ri-home-3-line"></i> <span data-key="dashboard">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="pages-profile.html">
+                            <i class="ri-user-4-line"></i> <span data-key="profile">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="pages-profile-settings.html">
+                            <i class="ri-user-settings-line"></i> <span data-key="settings">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="appointment.html">
+                            <i class="ri-calendar-schedule-line"></i> <span data-key="settings">Appointment Center</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link active" href="course-details.html">
+                            <i class="ri-graduation-cap-line"></i> <span data-key="settings">Course Details</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="payment-history.html">
+                            <i class="ri-history-line"></i> <span data-key="settings">Payment History</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="appointment-history.html">
+                            <i class="ri-history-line"></i> <span data-key="settings">Appointment History</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Sidebar -->
+        </div>
+
+        <div class="sidebar-background"></div>
+    </div>
+
+    <!-- Left Sidebar End -->
+    <!-- Vertical Overlay-->
+    <div class="vertical-overlay"></div>
+    <!-- End Page-content -->
+    <div class="main-content">
+
+        <div class="page-content">
+            <div class="container-fluid">
+
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-galaxy-transparent">
+                            <h4 class="mb-sm-0">Course Details</h4>
+
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="dashboard-projects.html">Dashboards</a></li>
+                                    <li class="breadcrumb-item active">Course Details</li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card pricing-box card-warning ribbon-box ribbon-fill text-center">
+                            <div class="ribbon ribbon-success">New</div>
+                            <div class="row g-0">
+                                <div class="col-lg-6">
+                                    <div class="card-body h-100">
+                                        <div>
+                                            <h5 class="mb-1 text-white">Most Popular</h5>
+                                        </div>
+
+                                        <div class="py-4">
+                                            <h2 class="text-white"><sup><small>$</small></sup>280 <span class="fs-13 text-white">/Total</span></h2>
+                                        </div>
+
+                                        <div class="text-center plan-btn mt-2">
+                                            <a data-bs-toggle="modal" data-bs-target="#planModal" class="btn btn-soft-warning w-sm waves-effect waves-light">Sign up</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end col-->
+                                <div class="col-lg-6">
+                                    <div class="card-body border-start mt-4 mt-lg-0">
+                                        <div class="card-header bg-warning-subtle">
+                                            <h5 class="fs-15 mb-0 text-warning">Plan Features:</h5>
+                                        </div>
+                                        <div class="card-body pb-0">
+                                            <ul class="list-unstyled vstack gap-3 mb-0">
+                                                <li>Classes: <span class="text-white fw-semibold">3</span></li>
+                                                <li>Duration: <span class="text-white fw-semibold">3 Hours</span></li>
+                                                <li>Car: <span class="text-white fw-semibold">Yes</span></li>
+                                                <li>Assessment: <span class="text-white fw-semibold">Yes</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-success">
+                            <div class="card-body">
+                               <h4 class="card-text text-white text-center mt-2"><span class="fw-medium">Your Assessment</span> is ready</h4>
+                                <p class="text-white text-center mt-4">After your assessment we have carefully selected a course that best fits your needs.</p>
+                                <p class="text-white text-center mt-4">View your detailed assessment to better understand your course</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="text-center">
+                                    <a data-bs-toggle="modal" data-bs-target="#scoreModal" type="button" class="link-light">View Assessment <i class="ri-arrow-right-s-line align-middle lh-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header align-items-center d-flex">
+                                <h4 class="card-title mb-0 flex-grow-1">Course Progress</h4>
+                            </div><!-- end card header -->
+
+                            <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table align-middle table-nowrap mb-0">
+                                            <thead class="table-light">
+                                            <tr>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Lesson Status</th>
+                                                <th scope="col">Lesson Action</th>
+                                                <th scope="col">Admin Action</th>
+                                                <th scope="col">Trainer</th>
+                                                <th scope="col">Purchased</th>
+                                                <th scope="col">Payment</th>
+                                                <th scope="col">Payment Status</th>
+                                                <th scope="col">Payment Action</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Lesson1</td>
+                                                <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Completed</td>
+                                                <td><button onclick="location.href='appointment.html'" class="btn-sm btn-outline-success btn" disabled>Book Now</button></td>
+                                                <td><span class="badge bg-success">Confirmed</span></td>
+                                                <td>Thomas</td>
+                                                <td>Most Popular</td>
+                                                <td>$70</td>
+                                                <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                                <td><button data-bs-toggle="modal" data-bs-target="#payModal" class="btn-sm btn-outline-dark btn" disabled>Pay Now</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lesson2</td>
+                                                <td class="text-success"><i class="ri-close-circle-line fs-17 align-middle"></i> Booked</td>
+                                                <td><button onclick="location.href='appointment.html'" class="btn-sm btn-outline-success btn" disabled>Book Now</button></td>
+                                                <td><span class="badge bg-warning">Unconfirmed</span></td>
+                                                <td>Thomas</td>
+                                                <td>Most Popular</td>
+                                                <td>$110</td>
+                                                <td class="text-danger"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Unpaid</td>
+                                                <td><button data-bs-toggle="modal" data-bs-target="#payModal" class="btn-sm btn-outline-danger btn">Pay Now</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lesson2</td>
+                                                <td class="text-warning"><i class="ri-error-warning-line fs-17 align-middle"></i> Unconfirmed</td>
+                                                <td><button data-bs-toggle="modal" data-bs-target="#confirmModal" class="btn-sm btn-outline-warning btn">Confirm</button></td>
+                                                <td><span class="badge bg-warning">Unconfirmed</span></td>
+                                                <td>Thomas</td>
+                                                <td>Most Popular</td>
+                                                <td>$110</td>
+                                                <td class="text-danger"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Unpaid</td>
+                                                <td><button data-bs-toggle="modal" data-bs-target="#payModal" class="btn-sm btn-outline-danger btn">Pay Now</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lesson3</td>
+                                                <td class="text-danger"><i class="ri-close-circle-line fs-17 align-middle"></i> Unbooked</td>
+                                                <td><button onclick="location.href='appointment.html'" class="btn-sm btn-outline-success btn" disabled>Book Now</button></td>
+                                                <td><span class="badge bg-danger">N/A</span></td>
+                                                <td>Thomas</td>
+                                                <td>Most Popular</td>
+                                                <td>$140</td>
+                                                <td class="text-black"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Unpaid</td>
+                                                <td><button class="btn-sm btn-outline-dark btn" disabled>Pay Now</button></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- end table -->
+                                    </div>
+                                    <!-- end table responsive -->
+                            </div><!-- end card-body -->
+                        </div>
+                        <!-- end table responsive -->
+                    </div>
+                </div>
+            </div>
+            <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <script>document.write(new Date().getFullYear())</script> © <a href="https://shaswataweb.netlify.app">Shaswata Web</a>.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- end main content-->
+
+<!-- END layout-wrapper -->
+<!--start back-to-top-->
+<button onclick="topFunction()" class="btn btn-danger btn-icon" id="back-to-top">
+    <i class="ri-arrow-up-line"></i>
+</button>
+<!--end back-to-top-->
+
+<!--start confirm-appointment-modal-->
+<div id="confirmModal" class="modal flip" tabindex="-1" aria-labelledby="confirmLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmLabel">Confirm Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+            </div>
+            <div class="modal-body">
+                <div class="d-grid gap-2">
+                    <button data-bs-toggle="modal" data-bs-target="#successAppModal" type="button" class="btn btn-success btn-label waves-effect waves-light rounded-pill"><i class="ri-check-double-line label-icon align-middle rounded-pill fs-16 me-2"></i> I am here</button>
+                    <button data-bs-toggle="modal" data-bs-target="#reModal" type="button" class="btn btn-danger btn-label waves-effect waves-light rounded-pill"><i class="ri-file-warning-line label-icon align-middle rounded-pill fs-16 me-2"></i>I can't be there</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--end confirm-appointment-modal-->
+
+
+<!--Reconsider Appointment Modal Start-->
+<div id="reModal" class="modal flip" tabindex="-1" aria-labelledby="reLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered modal-flip">
+        <div class="modal-content">
+            <div class="modal-body text-center p-5">
+                <div class="text-end">
+                    <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mt-2">
+                    <img class="fail-img" src="./img/confirm-cancel.png" alt="Confetti Image"/>
+                    <h4 class="mb-3 mt-4 text-primary">Are you sure?</h4>
+                    <div class="d-grid gap-2" >
+                        <button data-bs-toggle="modal" data-bs-target="#failModal" class="btn btn-outline-warning" type="button">Cancel</button>
+                        <button data-bs-toggle="modal" data-bs-target="#confirmModal"  class="btn btn-outline-danger" type="button">Reconsider</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer bg-danger-subtle p-3 justify-content-center">
+                <p class="mb-0 text-danger">We can't provide refunds for late cancellation. It is not too late to confirm <a data-bs-toggle="modal" type="btn" data-bs-target="#confirmModal" class="link-secondary fw-semibold reaffirm">Confirm Appointment</a></p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!--Success Payment Modal End-->
+
+<!--Fail Appointment Modal Start-->
+<div id="failModal" class="modal flip" tabindex="-1" aria-labelledby="failLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered modal-flip">
+        <div class="modal-content">
+            <div class="modal-body text-center p-5">
+                <div class="text-end">
+                    <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mt-2">
+                    <img class="fail-img" src="./img/Fail.png" alt="Confetti Image"/>
+                    <h4 class="mb-3 mt-4 text-primary">Appointment Cancelled</h4>
+                </div>
+            </div>
+            <div class="modal-footer bg-danger-subtle p-3 justify-content-center">
+                <p class="mb-0 text-danger">We can't provide refunds for late cancellation.</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!--Success Payment Modal End-->
+
+<!--Success Appointment Modal Start-->
+<div id="successAppModal" class="modal flip" tabindex="-1" aria-labelledby="successAppLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered modal-flip">
+        <div class="modal-content">
+            <div class="modal-body text-center p-5">
+                <div class="text-end">
+                    <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mt-2">
+                    <img class="success-img" src="./img/Success.png" alt="Confetti Image"/>
+                    <h4 class="mb-3 mt-4 text-success">Appointment Confirmed Successfully!</h4>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!--Success Payment Modal End-->
+
+<!--start payment-modal-->
+<div id="payModal" class="modal flip" tabindex="-1" aria-labelledby="payLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="payLabel">Confirm Payment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+            </div>
+            <div class="modal-body">
+                <div class="d-grid gap-2">
+                    <div class="col-12">
+                        <label class="visually-hidden" for="inlineFormSelectPref">Appointment</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>Appointment1</option>
+                            <option value="1">Appointment2</option>
+                            <option value="2">Appointment3</option>
+                        </select>
+                    </div><!--end col-->
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="payConfirm" placeholder="Enter the reference No.">
+                        <label for="payConfirm">Interac Reference</label>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-6">
+                                <div class="d-grid">
+                                    <button data-bs-toggle="modal" data-bs-target="#successModal"  type="button" class="btn btn-success btn-label waves-effect waves-light rounded-pill"><i class="ri-check-double-line label-icon align-middle rounded-pill fs-16 me-2"></i>Submit</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--end payment-modal-->
+
+<!--start score-modal-->
+<div id="scoreModal" class="modal flip" tabindex="-1" aria-labelledby="scoreLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="scoreLabel">Latest Assessment Score Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+            </div>
+            <div class="modal-body">
+                <div id="body1" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link mb-2 active" id="v-pills-starting-tab" data-bs-toggle="pill" href="#v-pills-starting" role="tab" aria-controls="v-pills-home" aria-selected="true">Starting & Shifting</a>
+                                    <a class="nav-link mb-2" id="v-pills-stopping-tab" data-bs-toggle="pill" href="#v-pills-stopping" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">Stopping</a>
+                                    <a class="nav-link mb-2" id="v-pills-steering-tab" data-bs-toggle="pill" href="#v-pills-steering" role="tab" aria-controls="v-pills-messages" aria-selected="false" tabindex="-1">Steering</a>
+                                    <a class="nav-link mb-2" id="v-pills-signaling-tab" data-bs-toggle="pill" href="#v-pills-signaling" role="tab" aria-controls="v-pills-settings" aria-selected="false" tabindex="-1">Signal Violations</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-md-9">
+                                <div class="tab-content text-muted mt-4 mt-md-0" id="v-pills-tabContent">
+                                    <div class="tab-pane fade active show" id="v-pills-starting" role="tabpanel" aria-labelledby="v-pills-starting-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Check Traffic</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fast or Uneven Gateway</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Rolls When on Grade</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Using Left Foot on Brake</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Use Seatbelt</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Coasts in Neutral (Passenger Vehicle)</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-stopping" role="tabpanel" aria-labelledby="v-pills-stopping-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Stops too Suddenly</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Stops too Close to a Vehicle</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Stops in an Unsafe Place</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Overrunning Crosswalk</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Using Parking Brake on Air Equipped Vehicles While Vehicle Still Moving</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-steering" role="tabpanel" aria-labelledby="v-pills-steering-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Continuous Steering with One Hand</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Weaving from Side to Side</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Oversteering</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Hands in Unstable Position</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-signaling" role="tabpanel" aria-labelledby="v-pills-signaling-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Improper or No Signal</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--  end col -->
+                        </div>
+                        <!--end row-->
+                    </div><!-- end card-body -->
+                </div>
+                <div id="body2" class="card destroy">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="nav flex-column nav-pills text-center" id="v-pills-tab2" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link mb-2 active active-infraction" id="v-pills-traffic-lights-tab" data-bs-toggle="pill" href="#v-pills-traffic-lights" role="tab" aria-controls="v-pills-home" aria-selected="true">Traffic Lights</a>
+                                    <a class="nav-link mb-2" id="v-pills-stop-sign-tab" data-bs-toggle="pill" href="#v-pills-stop-sign" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">Stop Sign</a>
+                                    <a class="nav-link mb-2" id="v-pills-laning-tab" data-bs-toggle="pill" href="#v-pills-laning" role="tab" aria-controls="v-pills-messages" aria-selected="false" tabindex="-1">Lane Observance</a>
+                                    <a class="nav-link mb-2" id="v-pills-turning-tab" data-bs-toggle="pill" href="#v-pills-turning" role="tab" aria-controls="v-pills-settings" aria-selected="false" tabindex="-1">Turning</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-md-9">
+                                <div class="tab-content text-muted mt-4 mt-md-0" id="v-pills-tabContent2">
+                                    <div class="tab-pane fade active show" id="v-pills-traffic-lights" role="tabpanel" aria-labelledby="v-pills-traffic-lights-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Unreasonable Stop on Amber Light</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Not Stopping on Amber Light as Required</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Stops on Green Arrow When Not Necessary</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Stops on Green Light Blocking Traffic</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Starts Before Light Turns Green</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-danger">Fails to Stop on Red Light</td>
+                                                            <td class="text-danger">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Respond to Light Change</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Turn Right on Red Light</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Approach to Green Light</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-stop-sign" role="tabpanel" aria-labelledby="v-pills-stop-sign-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Approaches Sign too Fast</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Stop Made in Improper Position</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Hesitant in Leaving</td>
+                                                            <td class="text-primary">05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Come to a Complete Stop</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-laning" role="tabpanel" aria-labelledby="v-pills-laning-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Drive in Proper Lane</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Check Traffic at All</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Check Blind Spots</td>
+                                                            <td class="text-primary">15</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Straddles Traffic Lanes</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Slow Changing Lanes</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Lane Change</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Changing on a Solid Line</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-turning" role="tabpanel" aria-labelledby="v-pills-turning-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Speed</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Strikes Curb</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Turn into Proper Lane</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Turn</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--  end col -->
+                        </div>
+                        <!--end row-->
+                    </div><!-- end card-body -->
+                </div>
+                <div id="body3" class="card destroy">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="nav flex-column nav-pills text-center" id="v-pills-tab3" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link mb-2 active" id="v-pills-passing-tab" data-bs-toggle="pill" href="#v-pills-passing" role="tab" aria-controls="v-pills-home" aria-selected="true">Passing</a>
+                                    <a class="nav-link mb-2" id="v-pills-speeding-tab" data-bs-toggle="pill" href="#v-pills-speeding" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">Speed</a>
+                                    <a class="nav-link mb-2 active-infraction" id="v-pills-moving-tab" data-bs-toggle="pill" href="#v-pills-moving" role="tab" aria-controls="v-pills-messages" aria-selected="false" tabindex="-1">Vehicles Moving on Roadway/ on Straightway</a>
+                                    <a class="nav-link mb-2" id="v-pills-right-way-tab" data-bs-toggle="pill" href="#v-pills-right-way" role="tab" aria-controls="v-pills-settings" aria-selected="false" tabindex="-1">Right of Way</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-md-9">
+                                <div class="tab-content text-muted mt-4 mt-md-0" id="v-pills-tabContent3">
+                                    <div class="tab-pane fade active show" id="v-pills-passing" role="tabpanel" aria-labelledby="v-pills-passing-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Passes Where Unlawful</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Cuts Back too Soon</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Give Way When Being Passed</td>
+                                                            <td class="text-primary">15</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-speeding" role="tabpanel" aria-labelledby="v-pills-speeding-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Exceeds Stated Speed Limit</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Too Fast for Condition</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Hinders or Drives too Slow</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Erratic or Not Steady</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Merge Speed</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-moving" role="tabpanel" aria-labelledby="v-pills-moving-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Follows too Closely</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Drives on Wrong Side of Street</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Straddles Center Line</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Wrong Side of Island</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Use Mirror</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-danger">Enters Intersection Without Clear Exit</td>
+                                                            <td class="text-danger">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Drives on Shoulder of Road</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Obey Traffic Control Device</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Too Close to Parked Cars</td>
+                                                            <td class="text-primary">20</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Fails to Stop for Emergency Vehicle</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Merge on Highway</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Exit on Highway</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Failure to Obey "Move Over Law"</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-right-way" role="tabpanel" aria-labelledby="v-pills-right-way-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Uncertain When to Take or Yield</td>
+                                                            <td class="text-primary">15</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Assumes the Right of Way</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Not Granting to Pedestrians</td>
+                                                            <td class="text-primary">50</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--  end col -->
+                        </div>
+                        <!--end row-->
+                    </div><!-- end card-body -->
+                </div>
+                <div id="body4" class="card destroy">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="nav flex-column nav-pills text-center" id="v-pills-tab4" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link mb-2 active" id="v-pills-backing-tab" data-bs-toggle="pill" href="#v-pills-backing" role="tab" aria-controls="v-pills-home" aria-selected="true">Backing</a>
+                                    <a class="nav-link mb-2 active-infraction" id="v-pills-parking-tab" data-bs-toggle="pill" href="#v-pills-parking" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">Parking</a>
+                                    <a class="nav-link mb-2" id="v-pills-general-tab" data-bs-toggle="pill" href="#v-pills-general" role="tab" aria-controls="v-pills-messages" aria-selected="false" tabindex="-1">General</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-md-9">
+                                <div class="tab-content text-muted mt-4 mt-md-0" id="v-pills-tabContent4">
+                                    <div class="tab-pane fade active show" id="v-pills-backing" role="tabpanel" aria-labelledby="v-pills-backing-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="table-responsive">
+                                                    <table class="table align-middle mb-0">
+                                                        <thead class="table-light">
+                                                        <tr>
+                                                            <th scope="col">Infraction</th>
+                                                            <th scope="col">Points</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-primary">Uncertain Steering</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Excessive Speed</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-primary">Improper Braking</td>
+                                                            <td class="text-primary">10</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end table -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-parking" role="tabpanel" aria-labelledby="v-pills-parking-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="flex-grow-1 ms-3">
+                                                    <div class="table-responsive">
+                                                        <table class="table align-middle mb-0">
+                                                            <thead class="table-light">
+                                                            <tr>
+                                                                <th scope="col">Infraction</th>
+                                                                <th scope="col">Points</th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="text-primary">Fails to Observe Traffic</td>
+                                                                <td class="text-primary">10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-danger">Improper Position</td>
+                                                                <td class="text-danger">05</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Not Within 12 inches Both Wheels</td>
+                                                                <td class="text-primary">05</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Strikes Stanchions</td>
+                                                                <td class="text-primary">50</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Strikes Curb</td>
+                                                                <td class="text-primary">05</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Improper Use of Brakes</td>
+                                                                <td class="text-primary">10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Fails to Properly Parallel Park in Three Attempts</td>
+                                                                <td class="text-primary">50</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Fails to Angle Park Within Two Attempts</td>
+                                                                <td class="text-primary">50</td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end table -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-general" role="tabpanel" aria-labelledby="v-pills-general-tab">
+                                        <div class="d-flex mb-2">
+                                            <div class="flex-grow-1 ms-3">
+                                                <div class="flex-grow-1 ms-3">
+                                                    <div class="table-responsive">
+                                                        <table class="table align-middle mb-0">
+                                                            <thead class="table-light">
+                                                            <tr>
+                                                                <th scope="col">Infraction</th>
+                                                                <th scope="col">Points</th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="text-primary">Improper Attitude</td>
+                                                                <td class="text-primary">10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Driving with Vision Obscured</td>
+                                                                <td class="text-primary">20</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Adjusts Mirror When Driving</td>
+                                                                <td class="text-primary">05</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Very Poor Attitude</td>
+                                                                <td class="text-primary">25</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Collision or Near Miss</td>
+                                                                <td class="text-primary">50</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Fails to Drive with Due Care or Attention</td>
+                                                                <td class="text-primary">50</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-primary">Lacks Knowledge of Equipment</td>
+                                                                <td class="text-primary">10</td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end table -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--  end col -->
+                        </div>
+                        <!--end row-->
+                    </div><!-- end card-body -->
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-9">
+                            <table class="table table-nowrap">
+                                <tfoot class="table-light">
+                                <tr>
+                                    <td class="text-danger total-text">Total Points</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="text-danger total-text">65</td>
+                                </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-1"></div>
+                        <div class="col-lg-3 col-10">
+                            <ul class="pagination pagination-rounded pagination-lg">
+                                <li id="pg1" onclick="switchPage(1)" class="page-item active">
+                                    <a class="page-link">1</a>
+                                </li>
+                                <li id="pg2" onclick="switchPage(2)" class="page-item points-page">
+                                    <a class="page-link">2</a>
+                                </li>
+                                <li id="pg3" onclick="switchPage(3)" class="page-item points-page">
+                                    <a class="page-link">3</a>
+                                </li>
+                                <li id="pg4" onclick="switchPage(4)" class="page-item points-page">
+                                    <a class="page-link">4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-1"></div>
+                    </div>
+                </div>
+                <!-- end table responsive -->
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--end score-modal-->
+
+<!--start confirm-plan modal-->
+<div id="planModal" class="modal flip" tabindex="-1" aria-labelledby="planLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="planLabel">Confirm Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-2"></div>
+                        <div class="col-lg-6 col-8">
+                            <img class="success-img m-auto" src="./img/driving-course.png" alt="driving-course"/>
+                        </div>
+                        <div class="col-lg-3 col-2"></div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2">
+                    <button data-bs-toggle="modal" data-bs-target="#successModal" type="button" class="btn btn-success btn-label waves-effect waves-light rounded-pill"><i class="ri-check-double-line label-icon align-middle rounded-pill fs-16 me-2"></i>Confirm Course</button>
+                    <button data-bs-dismiss="modal" type="button" class="btn btn-danger btn-label waves-effect waves-light rounded-pill"><i class="ri-file-warning-line label-icon align-middle rounded-pill fs-16 me-2"></i>Decide Later</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--end confirm-appointment-modal-->
+
+<!--Success Payment Modal Start-->
+<div id="successModal" class="modal flip" tabindex="-1" aria-labelledby="successLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered modal-flip">
+        <div class="modal-content">
+            <div class="modal-body text-center p-5">
+                <div class="text-end">
+                    <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mt-2">
+                    <img class="success-img" src="./img/Success.png" alt="Confetti Image"/>
+                    <h4 class="mb-3 mt-4 text-success">Request Submitted Successfully!</h4>
+                    <p class="text-muted fs-15 mb-4">Thank You!!! We will review the information and get back to you as soon as possible. We are grateful for your continuous confidence in us.</p>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!--Success Payment Modal End-->
+
+<!-- JAVASCRIPT -->
+<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libs/simplebar/simplebar.min.js"></script>
+<script src="assets/libs/node-waves/waves.min.js"></script>
+<script src="assets/libs/feather-icons/feather.min.js"></script>
+<script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+<script src="assets/js/plugins.js"></script>
+
+<!-- apexcharts -->
+<script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+<!-- projects js -->
+<script src="assets/js/pages/dashboard-projects.init.js"></script>
+<script src="assets/js/pages/dashboard-job.init.js"></script>
+<!-- App js -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>

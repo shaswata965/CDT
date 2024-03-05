@@ -66,6 +66,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding: 0 20px;
   text-transform: uppercase;
 }
+
+.form .row .col-6 div a {
+  background-color: #F43E18;
+  border: 1px solid #F43E18;
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  height: 35px;
+  line-height: 33px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
 .form .input input[type="submit"]:hover {
   background-color: transparent;
   color: #F43E18;
